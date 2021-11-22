@@ -69,7 +69,7 @@ public class TennisGameTest {
 		//Act
 		String score = game.getScore() ;
 		// Assert
-		assertEquals("15 - 30", score);		
+		assertEquals("30 - 15", score);		
 	}
 	@Test
 	public void testTennisGame_EahcPlayer1WinPointsplayer2_Score_Deuce() throws TennisGameException {
@@ -82,7 +82,7 @@ public class TennisGameTest {
 		//Act
 		String score = game.getScore() ;
 		// Assert
-		assertEquals("30 - 15", score);		
+		assertEquals("15 - 30", score);		
 	}
 	
 	@Test
@@ -95,7 +95,7 @@ public class TennisGameTest {
 		//Act
 		String score = game.getScore() ;
 		// Assert
-		assertEquals("30 - love", score);		
+		assertEquals("love - 30", score);		
 	}
 	
 	
