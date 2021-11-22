@@ -33,7 +33,7 @@ public class TennisGame {
 	
 	public void player1Scored() throws TennisGameException {
 		if (gameEnded) {
-				throw new TennisGameException;
+				return;
 		}
 		else {
 			player1Points++;
@@ -43,7 +43,7 @@ public class TennisGame {
 	
 	public void player2Scored() throws TennisGameException {
 		if (gameEnded) {
-				throw new TennisGameException;
+				return;
 		}
 		else {
 			player2Points++;
